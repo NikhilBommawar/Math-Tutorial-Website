@@ -1,0 +1,200 @@
+body{
+    font: Arial,Helvetica,sans-serif;
+}
+
+
+#container {
+    width: 1050px;
+  /* border: 1px solid black; */
+   margin:0 auto;
+}
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#brand{
+    float: left;
+}
+
+h1 a{
+    font-size: 50px;
+    font-weight: 100;
+    color: #762DA6;
+    text-decoration: none;
+}
+
+#searchbox{
+    float: right;
+    background: linear-gradient(rgb(205,216,160),#9EBB4B);
+    background: -webkit-linear-gradient(rgb(205,216,160),#9EBB4B);  /* for Safari*/
+    background: -o-linear-gradient(rgb(205,216,160),#9EBB4B);       /* for Opera*/
+    background: -moz-linear-gradient(rgb(205,216,160),#9EBB4B);     /* for Mozilla Firefox*/
+    background: -ms-linear-gradient(rgb(205,216,160),#9EBB4B);      /* for Internet Explorer*/
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+}
+
+.text{
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: darkorange;
+    background: white url(images/search.png) right center no-repeat;
+   border: 1px solid #cbd03e; 
+}
+.submit{
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background: #9958C9;
+    font-size: 10px;
+}
+.clear {
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+float: left;
+padding: 0 30px;
+height: 20px;
+border-right: 1px solid #5d12e7;
+
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu{
+    height: 70px;
+    background: linear-gradient(#D3C875,#AEA436);
+    padding: 7px 0;
+}
+
+#menu ul li a{
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 17px;
+   color:#5d12e7;
+   line-height: 20px;
+   transition: font-size 0.3s ease;
+
+   /* transition effect for safari browser*/
+   -webkit-transition: font-size 0.3s ease;
+   /* transition effect for mozilla browser*/ 
+   -moz-transition: font-size 0.3s ease;
+  /* transition effect for Internet Explorer browser*/
+   -ms-transition: font-size 0.3s ease;
+   /* transition effect for Opera browser*/
+   -o-transition: font-size 0.3s ease;
+
+}
+
+   #menu ul li a:hover{
+    font-size: 20px;
+    font-weight:bold;
+    color: #B12BD1;
+   }
+
+   #menu ul li a:active{
+    font-size: 20px;
+    font-weight:bold;
+    color: #B12BD1;
+   }
+
+   #introduction{
+    background: linear-gradient(#D2E38F,#87A13B);
+   text-decoration: none;
+   padding: 30px;   
+   margin: 16px 0;
+}
+
+#introduction h3{
+    font-size: 45px;
+    color:#578640;
+    font-weight: normal;
+
+}
+
+#introduction p{
+    font-size: 20px;
+    color:#578640 ;
+    text-align: justify;
+}
+
+.sidebar{
+    height: 500px;
+    width: 450px;
+    border:1px solid #BAF46F;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3{
+    color:#B314DB;
+    font-size: 30px;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#5d12e7 ;
+}
+
+.sidebar ul{
+    padding-top: 8px;
+}
+
+.sidebar ul li a:hover,.sidebar ul li a:active{
+    text-decoration: none;
+    color:#B12BD1 ;
+    font-size: 23px;
+    font-weight: bold;
+  /* transition effect for safari browser*/
+   -webkit-transition: font-size 0.3s ease;
+   /* transition effect for mozilla browser*/ 
+   -moz-transition: font-size 0.3s ease;
+  /* transition effect for Internet Explorer browser*/
+   -ms-transition: font-size 0.3s ease;
+   /* transition effect for Opera browser*/
+   -o-transition: font-size 0.3s ease;
+}
+
+#leftsidebar{
+    float: left;
+}
+
+#leftsidebar ul li{
+    /* padding-bottom: 6px;
+    padding-left: 20px; */
+    padding:0 0 6px 20px ;
+    list-style-image: url(images/arrow.png);
+}
+
+#rightsidebar ul li{
+    /* padding-bottom: 20px;
+    padding-left: 70px; */
+    padding: 0 0 20px 70px;
+    background: url(images/tick.png) no-repeat left center;
+}
+
+
+#rightsidebar{
+    float: right;
+}
+
+.footer{
+    height: 60px;
+    background: linear-gradient(#f6f390,#d5d533);
+    padding: 10px 30px;
+    margin-top: 15px;
+}
+
+ 
